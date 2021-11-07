@@ -11,15 +11,14 @@ DToster Session Flash Message Components For Laravel Project
 - Then Link those Js and css file to your layouts/app.blade
 
    - For Css
-            ```
-            <link rel="stylesheet" href="{{ asset('plugins/toastr.min.css') }}">
-            ```
+     ```
+     <link rel="stylesheet" href="{{ asset('plugins/toastr.min.css') }}">
+     ```
     - For Js
-            ```
-            <script src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
-            <script src="{{asset('js/toster-session.js')}}"></script>
-
-            ```
+      ```
+      <script src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
+      <script src="{{asset('js/toster-session.js')}}"></script>
+      ```
 
 - then copy components/toster-session.blade.php and paste it on resource/views/components folder.
 
@@ -30,7 +29,7 @@ DToster Session Flash Message Components For Laravel Project
   <x-toster-session>
   ```
 
-```
+
 
 ## <a href="https://iqbalhasan.dev" target="_blank">iqbalhasan.dev</a> Sponsors
 
@@ -44,8 +43,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The iqbalhasan.dev Project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-```
-
-```
-
-```

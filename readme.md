@@ -10,11 +10,11 @@ DToster Session Flash Message Components For Laravel Project
 
 - Then Link those Js and css file to your layouts/app.blade
 
-        - For Css
+   - For Css
             ```
             <link rel="stylesheet" href="{{ asset('plugins/toastr.min.css') }}">
             ```
-        - For Js
+    - For Js
             ```
             <script src="{{asset('plugins/toastr/toastr.min.js')}}"></script>
             <script src="{{asset('js/toster-session.js')}}"></script>
